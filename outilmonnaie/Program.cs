@@ -43,7 +43,7 @@ namespace outilmonnaie
             }
             if (type == "euro" && type2 == "can")
             {
-                double dollca = montant * 1.42;
+                double dollca = montant / 1.42;
                 Console.WriteLine(montant + " dollards can donne" + dollca + "en dollards euro");
             }
             Console.ReadKey();
