@@ -14,7 +14,7 @@ namespace outilmonnaie
             double montant = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("ce montant est t'il en us, en can ou en euro");
             string type = Console.ReadLine();
-            Console.WriteLine("En quoi voulez vous convertir votre montant");
+            Console.WriteLine("En quoi voulez vous convertir votre montant (euro, us ou can)");
             string type2 = Console.ReadLine();
             if (type == "can" && type2 == "us")
             {
